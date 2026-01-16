@@ -7,14 +7,23 @@
 }
 
 /* google font */
+
+/* shared style start */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    background-color: #232323;
+}
+
+/* text color */
+.text-color {
+    color: white;
 }
 
 .container {
     max-width: min(90%, 1060px);
+    margin: 0 auto;
 }
 
 /* primary color orange */
@@ -35,3 +44,19 @@
     line-height: 24px;
     text-align: left;
 }
+
+.display-flex {
+    display: flex;
+}
+
+/* shared style end */
+
+/* ----------header style start */
+
+/* nav area style start */
+.nav-container {
+    margin-top: clamp(1.125rem, 2vw, 1.5rem);
+}
+
+/* nav area style end */
+/* ----------header style end */
