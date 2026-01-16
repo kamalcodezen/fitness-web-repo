@@ -13,7 +13,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: #191919;
+    background: rgba(0, 0, 0, 1);;
 }
 
 /* text color */
@@ -39,7 +39,7 @@
 /* info text p tag */
 .info-details {
     color: rgba(255, 255, 255, 0.5);
-    font-size: 16px;
+    font-size: clamp(0.875rem, 1vw, 1rem);
     font-weight: 400;
     line-height: 24px;
     text-align: left;
@@ -47,6 +47,17 @@
 
 .display-flex {
     display: flex;
+}
+
+.primary-btn {
+    font-size: 1.125rem;
+    font-weight: 600;
+    color: #fdf0ef;
+    background-color: rgba(230, 83, 60, 1);
+    border-radius: 42px;
+    padding: 16px 46px;
+    border: none;
+    cursor: pointer;
 }
 
 /* shared style end */
@@ -83,15 +94,115 @@
     border-radius: 46px;
 }
 
-
 .menu .menu-link {
     text-decoration: none;
     font-size: 1.125rem;
     font-weight: 400;
     color: rgba(255, 255, 255, 1);
 }
-.menu-icon{
+
+.menu-icon {
     display: none;
 }
-    /* nav area style end */
+
+/* nav area style end */
+
+/* --banner style start---- */
+.banner .banner-container {
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 36px;
+}
+
+.banner-container .banner-content {
+    max-width: 520px;
+    width: 100%;
+}
+
+.banner-content .banner-heading {
+    font-size: clamp(3rem, 4vw, 4.375rem);
+    margin-bottom: clamp(1.25rem, 2vw, 1.75rem);
+}
+
+.banner-content .banner-info {
+    margin-bottom: clamp(1.25rem, 2vw, 1.75rem);
+}
+
+.banner-content .white-btn {
+    font-size: 1.125rem;
+    font-weight: 600;
+    color: #fdf0ef;
+    background-color: transparent;
+    border-radius: 42px;
+    padding: 14px 46px;
+    border: 1px solid #fdf0ef;
+    cursor: pointer;
+}
+
+.banner-container .banner-img {
+    max-width: 350px;
+    width: 100%;
+    vertical-align: middle;
+    position: relative;
+}
+
+.banner-container .banner-img img {
+    width: 100%;
+    height: auto;
+    vertical-align: middle;
+}
+
+.banner-img .tooltip-1 {
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    width: 50%;
+    background-color: rgba(70, 68, 68, 0.302);
+    padding: 17px;
+    position: absolute;
+    right: -19%;
+    top: 23%;
+}
+
+#count {
+    font-size: 2.5rem;
+    color: white;
+    font-weight: 700;
+    margin-bottom: 4px;
+}
+
+#tooltip-info {
+    font-size: 0.875rem;
+    font-weight: 400;
+    color: #b9b9b9;
+}
+
+.banner-img .tooltip-2 .ball {
+    width: 40px;
+    height: 40px;
+    background-color: rgba(230, 83, 60, 1);
+    border-radius: 50%;
+}
+
+.banner-img .tooltip-2 {
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    width: 50%;
+    background-color: rgba(70, 68, 68, 0.302);
+    padding-block: 20px;
+    padding-inline: 12px;
+    gap: 15px;
+    align-items: center;
+    position: absolute;
+    bottom: 11%;
+    left: -23%;
+}
+
+#count-2 {
+    font-size: 2rem;
+    color: white;
+    font-weight: 800;
+    margin-bottom: 4px;
+}
+
+/* --banner style end---- */
 /* ----------header style end */
