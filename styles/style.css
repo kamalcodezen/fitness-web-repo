@@ -13,7 +13,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: #232323;
+    background-color: #191919;
 }
 
 /* text color */
@@ -56,6 +56,39 @@
 /* nav area style start */
 .nav-container {
     margin-top: clamp(1.125rem, 2vw, 1.5rem);
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-container .nav-logo {
+    font-size: clamp(1.75rem, 3vw, 2.25rem);
+    font-weight: 800;
+    font-style: italic;
+}
+
+.nav-container .menu {
+    gap: clamp(1.75rem, 4vw, 3rem);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 46px;
+    padding: 12.5px 5px;
+}
+
+.menu .menu-list {
+    list-style: none;
+}
+
+.menu .home-menu {
+    background-color: rgba(230, 83, 60, 1);
+    padding: 8px 20px;
+    border-radius: 46px;
+}
+
+
+.menu .menu-link {
+    text-decoration: none;
+    font-size: 1.125rem;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 1);
 }
 
 /* nav area style end */
