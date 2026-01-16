@@ -5,4 +5,33 @@
 .font-inter {
     font-family: "Inter", sans-serif;
 }
+
 /* google font */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: min(90%, 1060px);
+}
+
+/* primary color orange */
+.primary-color {
+    color: rgba(230, 83, 60, 1);
+}
+
+/* gray p tag color */
+.gray-color {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+/* info text p tag */
+.info-details {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+}
