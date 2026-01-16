@@ -1,0 +1,43 @@
+/* ========== Small Desktop / Laptop (1025px → 1200px) ========== */
+@media screen and (max-width: 1200px) {
+    /* styles */
+}
+
+/* ========== Laptop (993px → 1024px) ========== */
+@media screen and (max-width: 1024px) {
+    /* styles */
+}
+
+/* ========== Small Laptop / Large Tablet (769px → 992px) ========== */
+@media screen and (max-width: 992px) {
+    /* styles */
+}
+
+/* ========== Tablet (641px → 768px) ========== */
+@media screen and (max-width: 768px) {
+    /* styles */
+}
+
+/* ========== Large Mobile / Small Tablet (577px → 640px) ========== */
+@media screen and (max-width: 640px) {
+    /* .nav-container .menu-icon {
+        display: none;
+    } */
+}
+
+/* ========== Mobile (415px → 576px) ========== */
+@media screen and (max-width: 576px) {
+    .nav-container .menu-icon {
+        display: block;
+        font-size: clamp(1.75rem, 3vw, 2.25rem);
+    }
+
+    .menu .menu-link {
+        display: none;
+    }
+
+    .nav-container .menu {
+        border: none;
+    }
+
+}

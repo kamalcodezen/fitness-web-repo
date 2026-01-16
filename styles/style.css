@@ -90,6 +90,8 @@
     font-weight: 400;
     color: rgba(255, 255, 255, 1);
 }
-
-/* nav area style end */
+.menu-icon{
+    display: none;
+}
+    /* nav area style end */
 /* ----------header style end */
