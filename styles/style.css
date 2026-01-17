@@ -81,6 +81,10 @@
     margin-top: clamp(1.125rem, 2vw, 1.5rem);
     justify-content: space-between;
     align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    background: rgba(0, 0, 0, 1);
 }
 
 .nav-container .nav-logo {
@@ -139,6 +143,7 @@
 .banner-content .banner-info {
     margin-bottom: clamp(1.25rem, 2vw, 1.75rem);
 }
+
 .banner-content .white-btn {
     font-size: 1.125rem;
     font-weight: 600;
