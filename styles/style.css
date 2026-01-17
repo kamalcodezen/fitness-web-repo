@@ -4,6 +4,7 @@
 
 .font-inter {
     font-family: "Inter", sans-serif;
+    background: rgba(0, 0, 0, 1);
 }
 
 /* google font */
@@ -13,8 +14,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background: rgba(0, 0, 0, 1);
-    ;
 }
 
 /* text color */
@@ -68,7 +67,8 @@
 }
 
 .banner,
-.habits {
+.habits,
+.runs {
     margin-bottom: clamp(3rem, 6vw, 6.25rem);
 }
 
@@ -257,7 +257,45 @@
     margin-bottom: 6px;
 }
 
-
-
 /* change habits section style start*/
+
+/* runs area style start */
+.runs-container {
+    justify-content: space-between;
+    align-items: center;
+    background: #222222;
+    border-radius: 18px;
+}
+
+.runs-container .runs-content {
+    max-width: 500px;
+    width: 100%;
+    padding: 40px 54px;
+}
+
+.runs-content .runs-info {
+    margin-bottom: 18px;
+}
+
+.runs-content .runs-btn {
+    padding: 16px 71px;
+}
+
+.runs-container .runs-img {
+    max-width: 436px;
+    height: 395px;
+    overflow: hidden;
+    flex-shrink: 0;
+    padding: 35px;
+}
+
+.runs-container .runs-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    border-radius: 18px;
+}
+
+/* runs area style end */
 /* main area :end */
