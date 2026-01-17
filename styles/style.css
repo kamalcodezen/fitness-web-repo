@@ -270,7 +270,7 @@
 .runs-container .runs-content {
     max-width: 500px;
     width: 100%;
-    padding: 40px 54px;
+    padding: 40px 34px;
 }
 
 .runs-content .runs-info {
@@ -278,22 +278,23 @@
 }
 
 .runs-content .runs-btn {
-    padding: 16px 71px;
+    padding: 16px 70px;
 }
 
 .runs-container .runs-img {
-    max-width: 436px;
-    height: 395px;
-    overflow: hidden;
-    flex-shrink: 0;
-    padding: 35px;
+    max-width: 500px;
+    width: 100%;
+    height: 100%;
+    /* overflow: hidden; */
+    /* flex-shrink: 0; */
+
 }
 
 .runs-container .runs-img img {
     width: 100%;
-    height: 100%;
+    height: auto;
     object-fit: cover;
-    display: block;
+    /* display: block; */
     border-radius: 18px;
 }
 
