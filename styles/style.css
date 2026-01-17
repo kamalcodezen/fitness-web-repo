@@ -167,7 +167,7 @@
     /* border: 1px solid rgba(255, 255, 255, 0.1); */
     border-radius: 12px;
     width: 50%;
-    background-color: rgba(70, 68, 68, 0.76);
+    background-color: rgba(70, 68, 68, 0.57);
     padding: 12px;
     position: absolute;
     right: -14%;
@@ -198,7 +198,7 @@
     /* border: 1px solid rgba(255, 255, 255, 0.1); */
     border-radius: 12px;
     width: 50%;
-    background-color: rgba(70, 68, 68, 0.629);
+    background-color: rgba(70, 68, 68, 0.57);
     padding-block: 12px;
     padding-inline: 12px;
     gap: 15px;
