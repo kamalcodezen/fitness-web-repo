@@ -458,12 +458,12 @@
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(2, 340px);
     gap: clamp(0.875rem, 1.25vw, 1.25rem);
-
 }
 
 .teams-box .teams-img {
     max-width: 340px;
     width: 100%;
+    position: relative;
 }
 
 .teams-box .teams-img img {
@@ -471,6 +471,19 @@
     height: 100%;
     border-radius: 18px;
     object-fit: cover;
+    opacity: 0.75;
+}
+
+#trainer-name {
+    font-size: 1.125rem;
+    font-weight: 900;
+}
+
+.teams-img .teams-card-info {
+    position: absolute;
+    z-index: 1;
+    top: 80%;
+    left: 6%;
 }
 
 /* teams section style end */
