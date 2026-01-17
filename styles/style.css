@@ -232,8 +232,17 @@
 .habits-container .habits-img-box {
     width: 100%;
     text-align: center;
-    justify-content: space-around;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 50px;
+    justify-content: space-between;
+    align-items: center;
 
+}
+
+.habits-img {
+    max-width: 231px;
+    width: 100%;
 }
 
 .habits-container .habits-img-box img {

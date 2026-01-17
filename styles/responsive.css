@@ -26,6 +26,12 @@
     .banner-content .white-btn {
         margin-top: 12px;
     }
+
+    .habits-container .habits-img-box {
+        grid-template-columns: repeat(2, 1fr);
+        place-items: center;
+    }
+
 }
 
 /* ========== Tablet (641px → 768px) ========== */
@@ -83,4 +89,19 @@
         text-align: center;
     }
 
+    .habits-container .habits-img-box {
+        grid-template-columns: repeat(2, 1fr);
+        place-items: center;
+        column-gap: 12px;
+        row-gap: 52px;
+    }
+}
+
+/* ========== Small Mobile (361px → 414px) ========== */
+@media screen and (max-width: 414px) {
+     .habits-container .habits-img-box {
+        grid-template-columns: repeat(1, 1fr);
+        place-items: center;
+        gap: 24px;
+    }
 }
