@@ -97,6 +97,7 @@
         top: 70%;
         left: 8%;
     }
+
 }
 
 /* ========== Mobile (415px → 576px) ========== */
@@ -156,6 +157,12 @@
     .box-3,
     .box-6 {
         display: none;
+    }
+
+    /* teams section */
+    .teams-container .teams-box {
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(1, 1fr);
     }
 }
 
