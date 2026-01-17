@@ -299,6 +299,11 @@
 
 /* runs area style end */
 /* --training area style :start */
+.training {
+    margin-bottom: clamp(3rem, 5vw, 5.5rem);
+
+}
+
 .training-container .training-content {
     max-width: 670px;
     width: 100%;
@@ -312,8 +317,7 @@
 .training-container .training-box {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(2, 22 0px);
-
+    grid-template-rows: repeat(2, 220px);
 }
 
 .training-box .box-1 {
@@ -321,6 +325,7 @@
 }
 
 .training-box .box-1 .box1-info {
+    font-size: clamp(0.75rem, 1.5vw, 0.875rem);
     font-weight: 500;
     position: absolute;
     z-index: 1;
@@ -333,6 +338,7 @@
 }
 
 .training-box .box-2 .box2-info {
+    font-size: clamp(0.75rem, 1.5vw, 0.875rem);
     font-weight: 500;
     position: absolute;
     z-index: 2;
@@ -345,11 +351,12 @@
 }
 
 .training-box .box-3 .box3-info {
+    font-size: clamp(0.75rem, 1.5vw, 0.875rem);
     font-weight: 500;
     position: absolute;
     z-index: 3;
     top: 70%;
-    left: 15%;
+    left: 10%;
 }
 
 .training-box .box-4 {
@@ -357,6 +364,7 @@
 }
 
 .training-box .box-4 .box4-info {
+    font-size: clamp(0.75rem, 1.5vw, 0.875rem);
     font-weight: 500;
     position: absolute;
     z-index: 4;
@@ -369,11 +377,13 @@
 }
 
 .training-box .box-5 .box5-info {
+    font-size: clamp(0.75rem, 1.5vw, 0.875rem);
     font-weight: 500;
     position: absolute;
     z-index: 5;
     top: 70%;
-    left: 15%;
+    left: 10%;
+    ;
 }
 
 .training-box .box-6 {
@@ -381,11 +391,12 @@
 }
 
 .training-box .box-6 .box6-info {
+    font-size: clamp(0.75rem, 1.5vw, 0.875rem);
     font-weight: 500;
     position: absolute;
     z-index: 6;
     top: 70%;
-    left: 15%;
+    left: 10%;
 }
 
 .training-box .box-1 {
@@ -421,7 +432,7 @@
 }
 
 .training-box .training-img {
-    height: 250px;
+    height: 220px;
 }
 
 .training-box .training-img img {
