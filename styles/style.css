@@ -230,14 +230,16 @@
 }
 
 .habits-container .habits-img-box {
-    max-width: 231px;
     width: 100%;
     text-align: center;
+    justify-content: space-around;
+
 }
 
 .habits-container .habits-img-box img {
     border-radius: 50%;
     margin-bottom: clamp(1.375rem, 2vw, 1.875rem);
+    object-fit: contain;
 }
 
 .habits-container .habits-img-box h5 {
