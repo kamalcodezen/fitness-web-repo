@@ -488,3 +488,29 @@
 
 /* teams section style end */
 /* main area :end */
+
+/* footer area style start */
+.footer {
+    background-color: #1a1a1a;
+}
+
+.footer-about {
+    justify-content: space-between;
+    padding-top: clamp(2.5rem, 4vw, 3.75rem);
+    padding-bottom: clamp(3rem, 4.5vw, 5rem);
+}
+
+.footer-about .footer-details {
+    max-width: 440px;
+    width: 100%;
+}
+
+.footer-details .details-logo {
+    font-size: clamp(2.5rem, 6vw, 4.375rem);
+    font-weight: 800;
+    font-style: italic;
+    color: rgba(230, 83, 60, 1);
+    margin-bottom: clamp(0.75rem, 1.5vw, 1.25rem);
+}
+
+/* footer area style end*/
