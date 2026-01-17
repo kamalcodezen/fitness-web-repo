@@ -76,6 +76,20 @@
         top: 70%;
         left: 8%;
     }
+
+    /* footer area */
+    .footer-container {
+        flex-direction: column;
+    }
+
+    .footer-about {
+        width: 100%;
+    }
+
+    .footer-social {
+        width: 100%;
+        padding-right: 120px;
+    }
 }
 
 /* ========== Large Mobile / Small Tablet (577px → 640px) ========== */
@@ -96,6 +110,18 @@
     .training-box .box-4 .box4-info {
         top: 70%;
         left: 8%;
+    }
+
+    /* ---footer area */
+    .footer-social {
+        flex-direction: column;
+        align-items: flex-start;
+        padding-top: 0;
+        row-gap: 20px;
+    }
+
+    .footer .copyright {
+        line-height: 30px;
     }
 
 }
