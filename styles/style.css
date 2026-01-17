@@ -63,7 +63,6 @@
     font-size: clamp(1.75rem, 4vw, 3rem);
     font-weight: 900;
     margin-bottom: 0.875rem;
-
 }
 
 .teams,
@@ -140,7 +139,6 @@
 .banner-content .banner-info {
     margin-bottom: clamp(1.25rem, 2vw, 1.75rem);
 }
-
 .banner-content .white-btn {
     font-size: 1.125rem;
     font-weight: 600;
@@ -166,24 +164,24 @@
 }
 
 .banner-img .tooltip-1 {
-    border: 1px solid rgba(255, 255, 255, 0.1);
+    /* border: 1px solid rgba(255, 255, 255, 0.1); */
     border-radius: 12px;
     width: 50%;
-    background-color: rgba(70, 68, 68, 0.302);
-    padding: 17px;
+    background-color: rgba(70, 68, 68, 0.76);
+    padding: 12px;
     position: absolute;
-    right: -19%;
+    right: -14%;
     top: 23%;
 }
 
-#count {
-    font-size: 2.5rem;
+.count {
+    font-size: clamp(1.75rem, 4vw, 2.5rem);
     color: white;
-    font-weight: 700;
+    font-weight: 800;
     margin-bottom: 4px;
 }
 
-#tooltip-info {
+.tooltip-info {
     font-size: 0.875rem;
     font-weight: 400;
     color: #b9b9b9;
@@ -197,11 +195,11 @@
 }
 
 .banner-img .tooltip-2 {
-    border: 1px solid rgba(255, 255, 255, 0.1);
+    /* border: 1px solid rgba(255, 255, 255, 0.1); */
     border-radius: 12px;
     width: 50%;
-    background-color: rgba(70, 68, 68, 0.302);
-    padding-block: 20px;
+    background-color: rgba(70, 68, 68, 0.629);
+    padding-block: 12px;
     padding-inline: 12px;
     gap: 15px;
     align-items: center;
@@ -210,8 +208,8 @@
     left: -23%;
 }
 
-#count-2 {
-    font-size: 2rem;
+.count-2 {
+    font-size: clamp(1.5rem, 4vw, 2rem);
     color: white;
     font-weight: 800;
     margin-bottom: 4px;
@@ -236,9 +234,7 @@
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 50px;
-    justify-content: space-between;
     align-items: center;
-
 }
 
 .habits-img {
@@ -292,7 +288,7 @@
 
 .runs-container .runs-img img {
     width: 100%;
-    height: auto;
+    height: 100%;
     object-fit: cover;
     /* display: block; */
     border-radius: 18px;
@@ -474,7 +470,7 @@
     opacity: 0.75;
 }
 
-#trainer-name {
+.trainer-name {
     font-size: 1.125rem;
     font-weight: 900;
 }
@@ -542,7 +538,7 @@
 
 }
 
-.footer-social #about {
+.footer-social .about {
     margin-bottom: 0;
 }
 

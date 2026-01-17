@@ -19,8 +19,8 @@
 
     .banner-img .tooltip-2 {
         position: absolute;
-        bottom: 22%;
-        left: -2%;
+        bottom: 26%;
+        left: -7%;
     }
 
     .banner-content .white-btn {
@@ -156,6 +156,11 @@
 
     .banner-img {
         text-align: center;
+    }
+
+    .banner-img .tooltip-2 {
+        bottom: 40%;
+        left: -3%;
     }
 
     /* change habit section*/
