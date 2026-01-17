@@ -92,7 +92,7 @@
 
 .nav-container .menu {
     gap: clamp(1.75rem, 4vw, 3rem);
-    border: 1px solid rgba(255, 255, 255, 0.1);
+    border: 1px solid #888888;
     border-radius: 46px;
     padding: 12.5px 5px;
 }
