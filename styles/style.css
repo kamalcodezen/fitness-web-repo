@@ -37,7 +37,7 @@
 }
 
 /* info text p tag */
-. {
+.info-details {
     color: rgba(255, 255, 255, 0.5);
     font-size: clamp(0.875rem, 1vw, 1rem);
     font-weight: 400;
@@ -383,7 +383,6 @@
     z-index: 5;
     top: 70%;
     left: 10%;
-    ;
 }
 
 .training-box .box-6 {
