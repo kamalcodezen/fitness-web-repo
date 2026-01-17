@@ -10,12 +10,38 @@
 
 /* ========== Small Laptop / Large Tablet (769px → 992px) ========== */
 @media screen and (max-width: 992px) {
-    /* styles */
+
+    .banner-img .tooltip-1 {
+        position: absolute;
+        right: -3%;
+        top: 10%;
+    }
+
+    .banner-img .tooltip-2 {
+        position: absolute;
+        bottom: 22%;
+        left: -2%;
+    }
+
+    .banner-content .white-btn {
+        margin-top: 12px;
+    }
 }
 
 /* ========== Tablet (641px → 768px) ========== */
 @media screen and (max-width: 768px) {
-    /* styles */
+    .banner-container {
+        flex-direction: column;
+    }
+
+    .banner-content {
+        margin-top: 40px;
+    }
+
+    .banner-img {
+        margin-top: 50px;
+        width: 100%;
+    }
 }
 
 /* ========== Large Mobile / Small Tablet (577px → 640px) ========== */
@@ -38,6 +64,23 @@
 
     .nav-container .menu {
         border: none;
+    }
+
+    .banner-btn {
+        text-align: center;
+    }
+
+    .banner-join-btn {
+        padding: 14px 18px;
+    }
+
+    .banner-content .white-btn {
+        padding: 14px 18px;
+
+    }
+
+    .banner-img {
+        text-align: center;
     }
 
 }

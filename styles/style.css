@@ -13,7 +13,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background: rgba(0, 0, 0, 1);;
+    background: rgba(0, 0, 0, 1);
+    ;
 }
 
 /* text color */
@@ -120,7 +121,7 @@
 }
 
 .banner-content .banner-heading {
-    font-size: clamp(3rem, 4vw, 4.375rem);
+    font-size: clamp(2.25rem, 4.5vw + 0.5rem, 4.375rem);
     margin-bottom: clamp(1.25rem, 2vw, 1.75rem);
 }
 
