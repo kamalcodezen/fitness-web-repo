@@ -1,7 +1,7 @@
-/* ========== Small Desktop / Laptop (1025px → 1200px) ========== */
+/* ========== Small Desktop / Laptop (1025px → 1200px) ==========
 @media screen and (max-width: 1200px) {
     /* styles */
-}
+
 
 /* ========== Laptop (993px → 1024px) ========== */
 @media screen and (max-width: 1024px) {
@@ -29,7 +29,7 @@
 
     .habits-container .habits-img-box {
         grid-template-columns: repeat(2, 1fr);
-        place-items: center;
+    
     }
 
     .runs-content .runs-btn {
@@ -208,4 +208,4 @@
     .runs-content .runs-btn {
         padding: 8px 44px;
     }
-}
+} 
