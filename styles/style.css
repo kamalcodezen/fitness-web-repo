@@ -83,9 +83,8 @@ img {
     margin-bottom: 0.875rem;
     background: linear-gradient(90deg,
             #ff6b6b,
-            #ffcb6be8,
-            #ffffff,
-            #ff6b6b);
+            #ffcb6bdd,
+            #ff6b6bf9);
     background-position: 0% center;
     background-size: 200% 200%;
     -webkit-background-clip: text;
