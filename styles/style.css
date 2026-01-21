@@ -206,6 +206,20 @@ img {
     margin-bottom: clamp(1.25rem, 2vw, 1.75rem);
 }
 
+.main-text {
+    background: linear-gradient(90deg,
+            #ff6b6b,
+            #ffcb6be8,
+            #ff6b6b);
+    background-position: 0% center;
+    background-size: 200% 200%;
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    animation: section 2s linear infinite;
+}
+
+
 .banner-content .banner-info {
     margin-bottom: clamp(1.25rem, 2vw, 1.75rem);
 }
