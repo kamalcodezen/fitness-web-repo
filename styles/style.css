@@ -81,6 +81,27 @@ img {
     font-size: clamp(1.75rem, 4vw, 3rem);
     font-weight: 900;
     margin-bottom: 0.875rem;
+    background: linear-gradient(90deg,
+            #ff6b6b,
+            #ffcb6be8,
+            #ffffff,
+            #ff6b6b);
+    background-position: 0% center;
+    background-size: 200% 200%;
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    animation: section 2s linear infinite;
+}
+
+@keyframes section {
+    from {
+        background-position: 90% center;
+    }
+
+    to {
+        background-position: 300% center;
+    }
 }
 
 .teams,
