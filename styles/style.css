@@ -109,17 +109,15 @@ img {
     font-size: clamp(1.75rem, 3vw, 2.25rem);
     font-weight: 800;
     font-style: italic;
-    background: linear-gradient(
-        90deg,
-        #ff6b6b,
-        #6b6bff,
-        #ffffff,
-        #ff6b6b
-    );
+    background: linear-gradient(90deg,
+            #ff6b6b,
+            #6b6bff,
+            #ffffff,
+            #ff6b6b);
     background-size: 200% 200%;
     background-position: 0% center;
     -webkit-background-clip: text;
-     background-clip: text;
+    background-clip: text;
     color: transparent;
     animation: shine 1.8s linear infinite;
 
@@ -131,7 +129,7 @@ img {
     }
 
     to {
-        background-position:  300%  center;
+        background-position: 300% center;
     }
 }
 
@@ -595,10 +593,20 @@ img {
     font-style: italic;
     color: rgba(230, 83, 60, 1);
     margin-bottom: clamp(0.75rem, 1.5vw, 1.25rem);
-    background: linear-gradient(45deg, #ff6b6b, #6b6bff);
+    background: linear-gradient(90deg,
+            #ff6b6b,
+            #6b6bff,
+            #ffffff,
+            #ff6b6b);
+    background-size: 200% 200%;
+    background-position: 0% center;
     -webkit-background-clip: text;
+    background-clip: text;
     color: transparent;
+    animation: shine 1.8s linear infinite;
+
 }
+
 
 .footer-social {
     width: 50%;
